@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "bulma/bulma.sass";
-import Sunny from "../ASSETS/sunny.png";
+
 
 import axios from 'axios';
 function Icon(){
@@ -59,7 +59,7 @@ function Icon(){
 <form onSubmit={handleSubmit} >
         <div className="field has-addons is-small">
             <div className="control is-small">
-              <input className="input is-small" type="text" placeholder="City" name="city" onChange={handleCityNameChange} ></input>
+              <input className="input is-small" type="search" placeholder="City" name="city" onChange={handleCityNameChange} ></input>
             </div>
         <div className="control">
             <input className="button is-black is-small" value="Search" type="submit" onClick={(e) => { handleSubmit(); e.preventDefault(); }}>
