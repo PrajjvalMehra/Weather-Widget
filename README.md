@@ -1,7 +1,9 @@
 # Simple Weather Widget
 
+
+![](https://github.com/PrajjvalMehra/Weather-Widget/blob/main/readme/demo.png?raw=true)
+
 A weather widget made using ReactJS and OpenWeather API.
-![](https://github.com/PrajjvalMehra/Weather-Widget/blob/main/readme/demo.png)
 
 
 # Getting Started with Create React App
